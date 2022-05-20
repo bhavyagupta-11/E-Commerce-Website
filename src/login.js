@@ -27,7 +27,7 @@ function Login(){
         e.preventDefault();
 
         auth
-            .createUserwithemailandpassword(email,password)
+            .createUserWithEmailAndPassword(email,password)
             .then(
                 (auth)=>{
                     //it created a new user with emaila dn password
